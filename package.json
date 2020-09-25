@@ -1,7 +1,7 @@
 {
   "name": "flowers",
   "version": "0.1.0",
-  "private": true,
+  "description": "Flowers is the frontend Web UI for FRCMS.",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -10,8 +10,9 @@
   "dependencies": {
     "@material-ui/core": "^4.11.0",
     "@material-ui/icons": "^4.9.1",
-    "fontsource-roboto": "^3.0.3",
+    "clsx": "^1.1.1",
     "next": "9.5.3",
+    "prop-types": "^15.7.2",
     "react": "16.13.1",
     "react-dom": "16.13.1"
   }
